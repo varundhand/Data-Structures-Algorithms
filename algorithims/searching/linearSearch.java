@@ -2,6 +2,9 @@ package algorithims.searching;
 
 //* Linear Search Algorithm (Sequential Search)
 //* This algorithm searches for a target value within a list by checking each element in sequence until the target is found or the list ends.
+//* Runtime ciomplexity: O(n) 
+//* Dataset need not to be sorted
+
 
 public class linearSearch {
 
@@ -14,7 +17,7 @@ public class linearSearch {
         return -1;
     }
 
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
         int target = 3;
         int result = seqSearch(arr, target);
