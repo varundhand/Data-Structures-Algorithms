@@ -1,4 +1,4 @@
-package algorithims.sorting;
+// gapped insertion sortpackage algorithims.sorting;
 //* Insertion Sort builds the sorted array one element at a time by repeatedly picking the next element
 //   and inserting it into its correct position among the already sorted elements. 
 //   It works well for small datasets or nearly sorted data, as fewer shifts are needed. */
@@ -38,12 +38,12 @@ public class insetionSort {
 
     private static void insertionSort(int[] inputArray) {
         for (int i =1; i < inputArray.length; i++){
-            int currentValue = inputArray[i];
+            int currentValue = inputArray[i]; // take the current element
 
             int j = i - 1; // prev element and tracks the behind elements 
 
             while(j>=0 && inputArray[j] > currentValue) { // j>=0 means the loop should stop as soon as it reaches the front of the array
-                inputArray[j+1] = inputArray[j];
+                inputArray[j+1] = inputArray[j]; // moving the element one step ahead (to the right)
                 j--;
             }
             inputArray[j+1] = currentValue;
