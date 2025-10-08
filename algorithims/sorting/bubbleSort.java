@@ -2,7 +2,8 @@ package algorithims.sorting;
 //* Bubble Sort pairs of adjacent elements are compared, and the elements are swapped if they are not in order*/
 
 // Time Complexity: Quadratic Time O(n^2)
-// Bad and ineffecient algo in general
+// Bad and ineffecient algo in general for large data sets
+// Stable: Yes
 
 public class bubbleSort{
     public static void main(String[] args) {
