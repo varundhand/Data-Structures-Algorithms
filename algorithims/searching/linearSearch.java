@@ -14,7 +14,7 @@ public class linearSearch {
                 return i;
             }
         }
-        return -1;
+        return -1; // if not found, then return -1
     }
 
      public static void main(String[] args) {

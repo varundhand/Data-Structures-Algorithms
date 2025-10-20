@@ -1,4 +1,5 @@
 package algorithims.sorting;
+import java.util.Arrays;
 // Selection sort is an in-place, comparison-based sorting algorithm that divides a list into sorted and unsorted sections.
 // It repeatedly finds the minimum element in the unsorted section and swaps it with the first element of the unsorted section, moving that element to the sorted section. 
 // This process continues until the entire list is sorted.
@@ -16,9 +17,11 @@ public class selectionSort {
 
         selectionSort(unsortedArray);
 
-        for (int i = 0 ; i< unsortedArray.length; i++){
-            System.out.println(unsortedArray[i]);
-        }
+        // for (int i = 0 ; i< unsortedArray.length; i++){
+        //     System.out.println(unsortedArray[i]);
+        // }
+
+        System.out.println(Arrays.toString(unsortedArray));
     }
 
     private static void selectionSort(int[] unsortedArray) {

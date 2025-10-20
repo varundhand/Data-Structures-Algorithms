@@ -48,6 +48,6 @@ public class insetionSort {
             }
             inputArray[j+1] = currentValue;
     
-    }
+        }
     }
 }
